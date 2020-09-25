@@ -1,0 +1,32 @@
+html, body, h1, h2, h3, p, ol, ul, li, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+body {
+    background-image: url(HTMLProjectAssets/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg);
+    background-color: white;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+}
+
+#maincontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+#maincontent h1 {
+    text-align: center;
+    font-size: 60px;
+    border-bottom: 2px solid white;
+    margin-bottom: 3px;
+}
+h2 {
+    font-family: 'Work Sans', 'Montserrat', roboto;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100;
+}
