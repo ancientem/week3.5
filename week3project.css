@@ -9,23 +9,53 @@ body {
     background-attachment: fixed;
     height: 100vh;
     color: white;
+    font-family: 'Work Sans', 'Montserrat', 'roboto';
+    font-weight: 100;
 }
+
+
+#header {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    margin: 5px 30px;
+    border-bottom: 0.75px solid white;
+    font-family: 'Roboto', 'Yantramanav', 'Arial Narrow Bold', sans-serif;
+}
+#header h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+#headerp {
+    display:flex;
+    align-items: center;
+}
+.headerspace p {
+    margin: 0 10px 0 10px;
+}
+#header a {
+    color: white;
+}
+
 
 #maincontent {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 600px;
+    height: 90vh;
 }
-
 #maincontent h1 {
     align-self: center;
     text-align: center;
     font-size: 60px;
-    border-bottom: 2px solid white;
     margin-bottom: 3px;
     font-family: 'Roboto', 'Yantramanav', 'Arial Narrow Bold', sans-serif;
     font-size: 80px;
+    font-weight: 900;
+}
+#maincontent hr {
+    border: 1px solid white;
+    width: 500px;
 }
 h2 {
     font-family: 'Work Sans', 'Montserrat', 'roboto';
@@ -34,13 +64,38 @@ h2 {
     font-weight: 100;
 }
 
+
 #boxes {
     display: flex;
-    background: black;
-
 }
-
-.bread {
-    width: 500px;
-
+.secondarytext {
+    align-self: center;
+    padding-left: 40px;
+    padding-right: 10px;
+    font-size: 17px;
+}
+h3 {
+    font-family: 'Roboto', 'Yantramanav', 'Arial Narrow Bold', sans-serif;
+    font-weight: 800;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+#boxes2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+#boxes img {
+    width: 40%;
+}
+#boxes2 img {
+    width: 50%;
+}
+.box1 {
+    background: black;
+}
+.box2 {
+    background-color: #363636;
+} 
+.box3 {
+    background-color: #525252;
 }
