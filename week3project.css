@@ -4,7 +4,7 @@ html, body, h1, h2, h3, p, ol, ul, li, a {
     margin: 0;
 }
 body {
-    background-image: url(HTMLProjectAssets/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url(HTMLProjectAssets/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg);
     background-color: white;
     background-attachment: fixed;
     height: 100vh;
@@ -19,14 +19,28 @@ body {
 }
 
 #maincontent h1 {
+    align-self: center;
     text-align: center;
     font-size: 60px;
     border-bottom: 2px solid white;
     margin-bottom: 3px;
+    font-family: 'Roboto', 'Yantramanav', 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
 }
 h2 {
-    font-family: 'Work Sans', 'Montserrat', roboto;
+    font-family: 'Work Sans', 'Montserrat', 'roboto';
     text-align: center;
     font-size: 50px;
     font-weight: 100;
+}
+
+#boxes {
+    display: flex;
+    background: black;
+
+}
+
+.bread {
+    width: 500px;
+
 }
